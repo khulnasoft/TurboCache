@@ -1,0 +1,6 @@
+{
+	"name": "turbocache",
+	"image": "mcr.microsoft.com/devcontainers/go:1.22",
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	"features": {}
+}

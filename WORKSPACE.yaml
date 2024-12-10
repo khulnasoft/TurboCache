@@ -1,0 +1,16 @@
+defaultTarget: "//:app"
+defaultArgs:
+  version: dev
+environmentManifest:
+  - name: "node"
+    command: ["node", "--version"]
+  - name: "yarn"
+    command: ["yarn", "--version"]
+provenance:
+  enabled: true
+  slsa: true
+variants:
+- name: nogit
+  srcs:
+    exclude:
+    - "**/.git"
